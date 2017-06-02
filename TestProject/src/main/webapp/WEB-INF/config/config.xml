@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.sist.dao.main.MainVO" alias="main"/>
+		<typeAlias type="com.sist.dao.member.MemberVO" alias="member"/>       
+	</typeAliases>
+	<mappers>
+		<mapper resource="com/sist/dao/main/main-mapper.xml"/>
+		<mapper resource="com/sist/dao/member/member-mapper.xml"/>
+	</mappers>
+</configuration>  
+  
+
+
+
+
+  
+  
+  
+  
+  
